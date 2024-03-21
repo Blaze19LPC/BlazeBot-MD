@@ -1,0 +1,18 @@
+{
+  "name": "NovaBot-MD",
+  "description": "Bot de whatsapp simple",
+  "repository": "https://github.com/Blaze19LPC/BlazeBot-MD",
+  "logo": "https://telegra.ph/file/51490c65ffd146a3c147c.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
